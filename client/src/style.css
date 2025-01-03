@@ -1,0 +1,153 @@
+body {
+  background-color: #8bbdd6;
+}
+
+h1 {
+font-family: "Lucida Console", monospace;
+color: white;
+text-align: center;
+}
+
+.h2 {
+  font-family: "Lucida Console", monospace;
+  color: rgb(255, 116, 29);
+}
+
+.h3 {
+  font-family: "Lucida Console", monospace;
+  color: rgb(163, 107, 34);
+}
+
+label {
+  font-family: "Lucida Console", monospace;
+  color: white;
+}
+
+/* p {
+font-family: monospace;
+font-size: 20px;
+color: white;
+} */
+
+.list {
+  width: 300px;
+  height: 300px;
+  padding: 5px 20px;
+  color: rgb(80, 116, 184);
+  background-color: antiquewhite;
+  /* margin: 2px 2px; */
+  display: block;
+  font-family: "Lucida Console", monospace;
+  float: left;
+  margin: 10px;
+}
+
+.button {
+  background-color: #1fb73b;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 10px;
+  font-family: "Lucida Console", monospace;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+  transition-duration: 0.1s;
+}
+
+.buttonupload {
+  background-color: #b71f99;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 8px 8px;
+  font-family: "Lucida Console", monospace;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 2px 2px;
+  cursor: pointer;
+  transition-duration: 0.1s;
+}
+
+.buttonpractice {
+  background-color: #ff9c12;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 10px;
+  font-family: "Lucida Console", monospace;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+  transition-duration: 0.1s;
+}
+
+.choice {
+  background-color: #5ad06a;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 10px;
+  font-family: "Lucida Console", monospace;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+  transition-duration: 0.1s;
+}
+
+.button:hover {background-color: #429f45}
+.buttonupload:hover {background-color: #a81c8c}
+.buttonpractice:hover {background-color: #de6e11}
+.choice:hover {background-color: #429f45}
+
+.practice {
+  margin: auto;
+  padding: 100px;
+  background-color: #b6d1df;
+  border: 3px solid rgb(240, 239, 243);
+  text-align: center;
+  font-size: 20px;
+  width: 50%;
+  color: rgb(60, 103, 162);
+  font-family: "Lucida Console", monospace;
+}
+
+.result {
+  text-align: center;
+  font-size: 20px;
+  font-family: monospace;
+  color: white;
+}
+
+.card {
+  width: 400px;
+  height: 200px;
+  background-color: rgb(243, 225, 192);
+  color: rgb(6, 105, 29);
+  border: 4px solid #4f9a52;
+  border-radius: 8px;
+  font-family: "Lucida Console", monospace;
+  text-align: center;
+  font-size: 90%;
+};
+
+.error {
+  background-color: rgb(205, 44, 44);
+  color: white;
+  font-weight: bold;
+}
+
+/* label { 
+  display: block; 
+} */
