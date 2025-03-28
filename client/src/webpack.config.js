@@ -69,8 +69,8 @@ const config = {
 
   output: {
     filename: '[name].[chunkhash].js',
-    path: path.resolve(__dirname, '../dist'),
-    publicPath: '/'
+    path: path.resolve(__dirname, 'build'),  // path: path.resolve(__dirname, '../dist'),
+    publicPath: '/flashcards-app/', // publicPath: '/'
   },
 
   plugins: [

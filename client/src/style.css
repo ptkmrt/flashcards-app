@@ -131,15 +131,16 @@ color: white;
 }
 
 .card {
-  width: 400px;
-  height: 200px;
+  width: 800px;
+  height: 400px;
   background-color: rgb(243, 225, 192);
   color: rgb(6, 105, 29);
-  border: 4px solid #4f9a52;
+  border: 4px solid #9a4f5e;
+  /* border: 4px solid #4f9a52; */
   border-radius: 8px;
   font-family: "Lucida Console", monospace;
   text-align: center;
-  font-size: 90%;
+  font-size: smaller;
 };
 
 .error {

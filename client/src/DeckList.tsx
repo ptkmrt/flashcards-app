@@ -28,7 +28,7 @@ export class DeckList extends Component<DeckListProps, DeckListState> {
 
   render = (): JSX.Element => {
     return (<div className="style">
-      <h1> My own quizlet lol </h1>
+      <h1> Flip The Bit </h1>
       <div className="list"> 
         <h2 className="h2"> Flashcard Sets </h2>
         {this.renderNames()}
